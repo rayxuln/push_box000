@@ -1,0 +1,42 @@
+#title{
+	text-align: center;
+}
+
+.list-container{
+	text-align: center;
+	background-color: #a1c3ff;
+	height: 500px;
+	padding-left: 3px;
+	padding-right: 3px;
+	overflow: scroll;
+	border-style: solid;
+}
+
+.list-container li{
+	background-color: #fa8892;
+	border-style: solid;
+}
+.list-container li:hover{
+	background-color: #ffc0c6;
+}
+
+#button-pannel button{
+	position: relative;
+	padding: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#button-pannel .dropdown-toggle{
+	border-style: solid;
+	/*padding-right: 5px;*/
+	border-width: .1px;
+	width: 100%;
+}
+#button-pannel .dropdown-toggle:hover{
+	text-decoration: none;
+}
+
+#dropdown-menu li:hover{
+	border-style: solid;
+}

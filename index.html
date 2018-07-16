@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>一个简单的排序程序</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.1.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<script src="js/popper.js"></script>
+	<script src="bootstrap-4.1.2-dist/js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.2-dist/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<H1 id="title">排序吧</H1>
+	<h6>作者:Raymond_Lx</h6>
+
+	<div class="container-fluid"> 
+		<div class="row">
+			<div class="col-md-4 list-container">未排序的数组
+				<ul id="unorder-list">
+				</ul>
+			</div>
+			<div id="button-pannel" class="col-md-4">
+				<div class="container-fluid" >
+					<div class="row">
+						<button id="generate-button" class="col-md-6">生成随机数</button>
+						<button id="sort-button" class="col-md-6">排序</button>	
+
+						<div class="dropdown" class="col-md-12">
+							<a id="dropdown-menu-a" class="dropdown-toggle" data-toggle="dropdown" href="#">在这里选择排序算法<b class="caret"></b></a>
+
+							<ul id="dropdown-menu" class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+								<li>冒泡算法</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 list-container">已经排序的数组
+				<ul id="order-list">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
